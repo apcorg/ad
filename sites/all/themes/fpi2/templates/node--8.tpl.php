@@ -47,7 +47,7 @@ $query = db_select('node', 'n');
 $query->innerJoin('field_data_body', 'fdb', 'n.nid = fdb.entity_id');
 $query->innerJoin('field_data_field_row_number', 'fdfr', 'n.nid = fdfr.entity_id');
 $query->innerJoin('field_data_field_number', 'fdn', 'n.nid = fdn.entity_id');
-$query->innerJoin('field_data_featured_image', 'img', 'n.nid = img.entity_id');
+$query->innerJoin('field_data_field_featured_image', 'img', 'n.nid = img.entity_id');
 
 $result0 = $query
     ->fields('n', array('nid', 'title', 'created'))
@@ -55,7 +55,7 @@ $result0 = $query
     ->fields('fdb', array('body_value'))
     ->fields('fdfr', array('field_row_number_value'))
     ->fields('fdn', array('field_number_value'))
-    ->fields('img', array('field_featured_image_value'))
+    ->fields('img', array('field_featured_image_fid'))
     ->condition('type', 'principles')
     ->condition('status', 1)
     ->execute();
