@@ -7114,7 +7114,7 @@ section.login-form {
       z-index: 1; }
     #grid .fpi-row ul.fpi-ul li > div {
       cursor: pointer;
-      padding: 0.875rem 0 0.4375rem 0;
+      padding: 0.875rem 0.4375rem 0.4375rem 0.4375rem;
       border: 2px solid #FF8B64;
       box-sizing: border-box;
       height: 240px;

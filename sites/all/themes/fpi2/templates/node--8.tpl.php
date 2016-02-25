@@ -27,7 +27,7 @@ $lang_name = $language->language ; ?>
   </ul>
 </section>  
 <!-- menu bar -->
-<section id="grid" class="php-7">
+<section id="grid" class="php-3">
 
 
 <?php
