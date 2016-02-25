@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+@import "settings";
+// @import "foundation";
+
+// Or selectively include components
+@import
+  "../../zurb_foundation/scss/foundation/components/accordion",
+  "../../zurb_foundation/scss/foundation/components/alert-boxes",
+  "../../zurb_foundation/scss/foundation/components/block-grid",
+  // "../../zurb_foundation/scss/foundation/components/breadcrumbs",
+  "../../zurb_foundation/scss/foundation/components/button-groups",
+  "../../zurb_foundation/scss/foundation/components/buttons",
+  "../../zurb_foundation/scss/foundation/components/clearing",
+  // "../../zurb_foundation/scss/foundation/components/dropdown",
+  // "../../zurb_foundation/scss/foundation/components/dropdown-buttons",
+  // "../../zurb_foundation/scss/foundation/components/flex-video",
+  "../../zurb_foundation/scss/foundation/components/forms",
+  "../../zurb_foundation/scss/foundation/components/grid",
+  "../../zurb_foundation/scss/foundation/components/inline-lists",
+  // "../../zurb_foundation/scss/foundation/components/joyride",
+  // "../../zurb_foundation/scss/foundation/components/keystrokes",
+  "../../zurb_foundation/scss/foundation/components/labels",
+  // "../../zurb_foundation/scss/foundation/components/magellan",
+  // "../../zurb_foundation/scss/foundation/components/orbit",
+  // "../../zurb_foundation/scss/foundation/components/pagination",
+  "../../zurb_foundation/scss/foundation/components/panels",
+  // "../../zurb_foundation/scss/foundation/components/pricing-tables",
+  // "../../zurb_foundation/scss/foundation/components/progress-bars",
+  // "../../zurb_foundation/scss/foundation/components/reveal",
+  // "../../zurb_foundation/scss/foundation/components/side-nav",
+  "../../zurb_foundation/scss/foundation/components/split-buttons",
+  // "../../zurb_foundation/scss/foundation/components/sub-nav",
+  // "../../zurb_foundation/scss/foundation/components/switches",
+  "../../zurb_foundation/scss/foundation/components/tables",
+  "../../zurb_foundation/scss/foundation/components/tabs",
+  // "../../zurb_foundation/scss/foundation/components/thumbs",
+  // "../../zurb_foundation/scss/foundation/components/tooltips",
+  // "../../zurb_foundation/scss/foundation/components/top-bar",
+  "../../zurb_foundation/scss/foundation/components/type",
+  // "../../zurb_foundation/scss/foundation/components/offcanvas",
+  "../../zurb_foundation/scss/foundation/components/visibility";
+
+
+@import "base/drupal";
+@import "vendor/vendor";
+@import "layout/header";
+@import "layout/main";
+@import "layout/aside";
+@import "layout/footer";
+@import "partials/partials";

@@ -1,0 +1,24 @@
+#list {
+	padding-top: 3em;
+	height: 1000px;
+	ul {
+		margin: 0;
+		list-style: none !important;
+		li {
+			// @media screen and (min-width:361px) {
+			// 	height: 240px;
+			// }
+			border: 2px solid $primary-color;
+			margin-bottom: rem-calc(14)!important;
+    	margin-bottom: (14) + px !important;
+    	.columns {
+	    	h4, >div {
+    			text-align: justify;
+	    	}
+	    	.list-fpi {
+	    		padding: 3% 0;
+	    	}
+    	}
+		}
+	} 
+}

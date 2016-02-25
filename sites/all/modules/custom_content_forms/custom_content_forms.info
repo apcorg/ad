@@ -1,0 +1,4 @@
+name = My Custom Content Forms
+description = A trivial module to customize my content entry forms such as smartphone
+core = 7.x
+

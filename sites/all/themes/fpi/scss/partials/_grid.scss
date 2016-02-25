@@ -1,0 +1,94 @@
+#banner {
+	.row {
+		.banner {
+			padding: 100px 0 0 0;
+		}
+	}
+}
+
+#grid {
+	padding-top: 3em;
+	height: 1000px;
+	.fpi-row {
+		position:relative;
+		z-index:2;
+		transition: transform .54s cubic-bezier(.5,0,.1,1) 0s;
+		&.down {
+			transform: translate3d(0,320px,0);	
+			z-index:1;
+		}
+		ul.fpi-ul li {
+			>div {
+				h4 {
+					@include text-v;
+				}
+				cursor: pointer;
+				padding: 7px;
+				border: 2px solid $primary-color;
+				box-sizing: border-box;
+				height: 175px;
+				position: relative;
+				&:hover {
+					padding-top: 3px;
+					border: 6px solid $primary-color;
+					.ion-plus-circled {
+						visibility: visible;
+					}
+				}
+				.ion-plus-circled {
+					cursor: pointer;
+					color: $secondary-color;
+					position: absolute;
+					bottom: -1em;
+	    		margin-left: auto;
+	    		margin-right: auto;
+	    		left: 0;
+	    		right: 0;
+	    		visibility: hidden;
+	    		&:before {
+	    			border-radius: 50%;
+	    			background: #fff;
+	    		}
+				}
+			}
+		}
+		.details-box {
+			position: absolute;
+			height: 294px;
+			width: 100%;
+			top: 200px;
+			opacity: 0;
+			&.open {
+				opacity: 1;
+			}
+			.detail-box {
+				margin-top: -28px;
+				z-index:1;
+				position: relative;	
+			}
+		}
+	}
+	.details-box {
+		border: 2px solid $primary-color;
+		margin-bottom: 1.5em;
+		height: 300px;
+		background: lighten($primary-color, 22%);
+		.close {
+			z-index:3;
+			position: relative;	
+			.ion-close-circled {
+				color: $primary-color;
+				cursor: pointer;
+			}
+		}
+		.row .full-text {
+			background: #fff;
+			height: 250px;
+			text-align: justify;
+			transform-style: preserve-3d;
+			h5 {
+				@include text-v;
+			}
+		}
+	}
+}

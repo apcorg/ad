@@ -1,0 +1,10 @@
+.full-fpi {
+	.row {
+		padding-top: rem-calc(120);
+		.small-8 {
+			padding: rem-calc(42) 0;
+			text-align: justify;
+		}
+	}
+	border-bottom: 1px solid $custom-black;
+}

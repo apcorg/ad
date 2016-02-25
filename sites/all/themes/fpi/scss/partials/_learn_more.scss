@@ -1,0 +1,24 @@
+.learn-more {
+	padding-top: rem-calc(28);
+	padding-top: 28px;
+	ul {
+		list-style: none;
+		margin: 0;
+		&.resources {
+			li {
+				padding: rem-calc(14);
+				border: 1px solid $custom-black;
+				margin-bottom: rem-calc(14);
+			}
+		}
+		&.filter {
+			@include clearfix;
+			li {
+				float: left;
+				&.label {
+					margin-top: rem-calc(3);
+				}
+			}
+		}
+	}
+}

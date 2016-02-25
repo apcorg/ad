@@ -1,0 +1,8 @@
+footer {
+	background-color: $secondary-color;
+	color: #fff;
+	height: 80px;
+	.row {
+		padding-top: rem-calc(28);
+	}
+}
