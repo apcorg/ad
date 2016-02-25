@@ -117,12 +117,16 @@ $resultPrinciples = $result0->fetchAllAssoc('nid');
 			<?php $rowNumber = $node->field_row_number_value; ?>
 
 			<?php if ($rowNumber == 2 && $node->language == $lang_name): ?> 
-				 <li data-fpi-num=<?php print $node->field_number_value; ?> class="text-center">
-				 	<div>
-				 		<h4 class="text-center"><?php print $node->field_number_value; ?>. <?php print $node->title; ?></h4>
-				 		<i class="ion-plus-circled x2"></i>
-				 	</div>
-				 </li>
+				<li data-fpi-num=<?php print $node->field_number_value; ?> class="text-center">
+					<?php 
+						$file = file_load($node->field_featured_image_fid);
+						$route = "sites/default/files/".$file->filename;
+					?>
+					<div style="background-image: url(<?php print_r($route); ?>);background-repeat: no-repeat;background-size: contain;background-position: center;">
+						<h4 class="text-center"><?php print $node->field_number_value; ?>. <?php print $node->title; ?></h4>
+						<i class="ion-plus-circled x2"></i>
+					</div>
+				</li>
 			<?php endif ?>
 			
 		<?php endforeach; ?>
@@ -138,7 +142,7 @@ $resultPrinciples = $result0->fetchAllAssoc('nid');
 				 	<div data-fpi-details=<?php print $node->field_number_value; ?> class="detail-box hidden">
 				 		<div class="row pl-35">
 				 		  <div class="medium-7 full-text columns">
-				 		    <h5><?php print $node->field_number_value; ?>. <?php print $node->body_value; ?></h5>
+				 		    <p><?php print $node->field_number_value; ?>. <?php print $node->body_value; ?></p>
 				 		    <a target="_blank" href="http://twitter.com/home?status=%22<?php echo substr($node->body_value, 0, 97); ?>...%22%20<?php print t('Learn more at feministinternet.net') ?>"><i class="ion-social-twitter"></i></a>
 				 		  </div>
 				 		  <div class="medium-5 ctas-grid  text-center columns">
@@ -158,12 +162,16 @@ $resultPrinciples = $result0->fetchAllAssoc('nid');
 			<?php $rowNumber = $node->field_row_number_value; ?>
 
 			<?php if ($rowNumber == 3 && $node->language == $lang_name): ?> 
-				 <li data-fpi-num=<?php print $node->field_number_value; ?> class="text-center">
-					 <div>
-					 	<h4 class="text-center"><?php print $node->field_number_value; ?>. <?php print $node->title; ?></h4>
-					 	<i class="ion-plus-circled x2"></i>
-					 </div>
-				 </li>
+				<li data-fpi-num=<?php print $node->field_number_value; ?> class="text-center">
+					<?php 
+						$file = file_load($node->field_featured_image_fid);
+						$route = "sites/default/files/".$file->filename;
+					?>
+					<div style="background-image: url(<?php print_r($route); ?>);background-repeat: no-repeat;background-size: contain;background-position: center;">
+						<h4 class="text-center"><?php print $node->field_number_value; ?>. <?php print $node->title; ?></h4>
+						<i class="ion-plus-circled x2"></i>
+					</div>
+				</li>
 			<?php endif ?>
 			
 		<?php endforeach; ?>
@@ -179,7 +187,7 @@ $resultPrinciples = $result0->fetchAllAssoc('nid');
 				 	<div data-fpi-details=<?php print $node->field_number_value; ?> class="detail-box hidden">
 				 		<div class="row pl-35">
 				 		  <div class="medium-7 full-text columns">
-				 		    <h5><?php print $node->field_number_value; ?>. <?php print $node->body_value; ?></h5>
+				 		    <p><?php print $node->field_number_value; ?>. <?php print $node->body_value; ?></p>
 				 		    <a target="_blank" href="http://twitter.com/home?status=%22<?php echo substr($node->body_value, 0, 97); ?>...%22%20<?php print t('Learn more at feministinternet.net') ?>"><i class="ion-social-twitter"></i></a>
 				 		  </div>
 				 		  <div class="medium-5 ctas-grid  text-center columns">
@@ -199,12 +207,16 @@ $resultPrinciples = $result0->fetchAllAssoc('nid');
 			<?php $rowNumber = $node->field_row_number_value; ?>
 
 			<?php if ($rowNumber == 4 && $node->language == $lang_name): ?> 
-				 <li data-fpi-num=<?php print $node->field_number_value; ?> class="text-center">
-				 	<div>
-				 		<h4 class="text-center"><?php print $node->field_number_value; ?>. <?php print $node->title; ?></h4>
-				 		<i class="ion-plus-circled x2"></i>
-				 	</div>
-				 </li>
+				<li data-fpi-num=<?php print $node->field_number_value; ?> class="text-center">
+					<?php 
+						$file = file_load($node->field_featured_image_fid);
+						$route = "sites/default/files/".$file->filename;
+					?>
+					<div style="background-image: url(<?php print_r($route); ?>);background-repeat: no-repeat;background-size: contain;background-position: center;">
+						<h4 class="text-center"><?php print $node->field_number_value; ?>. <?php print $node->title; ?></h4>
+						<i class="ion-plus-circled x2"></i>
+					</div>
+				</li>
 			<?php endif ?>
 		<?php endforeach; ?>
 		</ul>
@@ -219,7 +231,7 @@ $resultPrinciples = $result0->fetchAllAssoc('nid');
 				 	<div data-fpi-details=<?php print $node->field_number_value; ?> class="detail-box hidden">
 				 		<div class="row pl-35">
 				 		  <div class="medium-7 full-text columns">
-				 		    <h5><?php print $node->field_number_value; ?>. <?php print $node->body_value; ?></h5>
+				 		    <p><?php print $node->field_number_value; ?>. <?php print $node->body_value; ?></p>
 				 		    <a target="_blank" href="http://twitter.com/home?status=%22<?php echo substr($node->body_value, 0, 97); ?>...%22%20<?php print t('Learn more at feministinternet.net') ?>"><i class="ion-social-twitter"></i></a>
 				 		  </div>
 				 		  <div class="medium-5 ctas-grid  text-center columns">
@@ -238,12 +250,16 @@ $resultPrinciples = $result0->fetchAllAssoc('nid');
 			<?php $rowNumber = $node->field_row_number_value; ?>
 
 			<?php if ($rowNumber == 5 && $node->language == $lang_name): ?> 
-				 <li data-fpi-num=<?php print $node->field_number_value; ?> class="text-center">
-				 	<div>
-				 		<h4 class="text-center"><?php print $node->field_number_value; ?>. <?php print $node->title; ?></h4>
-				 		<i class="ion-plus-circled x2"></i>
-				 	</div>
-				 </li>
+				<li data-fpi-num=<?php print $node->field_number_value; ?> class="text-center">
+					<?php 
+						$file = file_load($node->field_featured_image_fid);
+						$route = "sites/default/files/".$file->filename;
+					?>
+					<div style="background-image: url(<?php print_r($route); ?>);background-repeat: no-repeat;background-size: contain;background-position: center;">
+						<h4 class="text-center"><?php print $node->field_number_value; ?>. <?php print $node->title; ?></h4>
+						<i class="ion-plus-circled x2"></i>
+					</div>
+				</li>
 			<?php endif ?>
 		<?php endforeach; ?>
 		</ul>
@@ -258,7 +274,7 @@ $resultPrinciples = $result0->fetchAllAssoc('nid');
 				 	<div data-fpi-details=<?php print $node->field_number_value; ?> class="detail-box hidden">
 				 		<div class="row pl-35">
 				 		  <div class="medium-7 full-text columns">
-				 		    <h5><?php print $node->field_number_value; ?>. <?php print $node->body_value; ?></h5>
+				 		    <p><?php print $node->field_number_value; ?>. <?php print $node->body_value; ?></p>
 				 		    <a target="_blank" href="http://twitter.com/home?status=%22<?php echo substr($node->body_value, 0, 97); ?>...%22%20<?php print t('Learn more at feministinternet.net') ?>"><i class="ion-social-twitter"></i></a>
 				 		  </div>
 				 		  <div class="medium-5 ctas-grid text-center columns">
