@@ -1,16 +1,7 @@
 <?php global $language ;
 $lang_name = $language->language ; ?>
 
-<!-- banner starts -->
-<section id="banner">
-  <div class="row">
-    <div class="medium-12 banner columns">
-      <img src="../sites/all/themes/fpi/assets/img/banner.png" alt="">
-    </div>
-  </div>
-</section>
-<!-- banner ends -->
-<h4 class="text-center pt-21">The African Declaration on Internet Rights and Freedoms</h4> 
+<h4 class="the-title text-center pt-21">The African Declaration on Internet Rights and Freedoms</h4> 
 <!-- menu bar -->
 <section id="menu" class="pt-21">
   <ul>

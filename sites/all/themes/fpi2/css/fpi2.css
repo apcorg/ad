@@ -6939,6 +6939,10 @@ h3.title {
 #banner {
   padding-top: 6.5625rem; }
 
+.the-title {
+  font-family: 'Montserrat';
+  text-transform: uppercase; }
+
 ul.breadcrumbs {
   display: none; }
 
