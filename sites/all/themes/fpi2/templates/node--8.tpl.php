@@ -47,6 +47,7 @@ $query = db_select('node', 'n');
 $query->innerJoin('field_data_body', 'fdb', 'n.nid = fdb.entity_id');
 $query->innerJoin('field_data_field_row_number', 'fdfr', 'n.nid = fdfr.entity_id');
 $query->innerJoin('field_data_field_number', 'fdn', 'n.nid = fdn.entity_id');
+$query->innerJoin('field_data_image', 'img', 'n.nid = img.entity_id');
 
 $result0 = $query
     ->fields('n', array('nid', 'title', 'created'))
@@ -54,6 +55,7 @@ $result0 = $query
     ->fields('fdb', array('body_value'))
     ->fields('fdfr', array('field_row_number_value'))
     ->fields('fdn', array('field_number_value'))
+    ->fields('img', array('field_image'))
     ->condition('type', 'principles')
     ->condition('status', 1)
     ->execute();
@@ -70,7 +72,7 @@ $resultPrinciples = $result0->fetchAllAssoc('nid');
 
 			<?php if ($rowNumber == 1 && $node->language == $lang_name): ?> 
 				 <li data-fpi-num=<?php print $node->field_number_value; ?> class="text-center">
-				 	<div>
+				 	<div style="background-image: url('<?php print $node->field_image; ?>');background-repeat: no-repeat;background-size: contain;background-position: center;">
 				 		<h4 class="text-center"><?php print $node->field_number_value; ?>. <?php print $node->title; ?></h4>
 				 		<i class="ion-plus-circled x2"></i>
 				 	</div>
