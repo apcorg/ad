@@ -7120,7 +7120,8 @@ section.login-form {
         top: 50%;
         -webkit-transform: translateY(-50%);
             -ms-transform: translateY(-50%);
-                transform: translateY(-50%); }
+                transform: translateY(-50%);
+        background-color: rgba(255, 255, 255, 0.4); }
       #grid .fpi-row ul.fpi-ul li > div:hover, #grid .fpi-row ul.fpi-ul li > div.highlight {
         padding-top: 3px;
         border: 6px solid #FF8B64; }
