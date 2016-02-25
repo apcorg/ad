@@ -97,7 +97,7 @@ $resultPrinciples = $result0->fetchAllAssoc('nid');
 				 	<div data-fpi-details=<?php print $node->field_number_value; ?> class="detail-box hidden">
 				 		<div class="row pl-35">
 				 		  <div class="medium-7 full-text columns">
-				 		    <h5><?php print $node->field_number_value; ?>. <?php print $node->body_value; ?></h5>
+				 		    <p><?php print $node->field_number_value; ?>. <?php print $node->body_value; ?></p>
 				 		    <a target="_blank" href="http://twitter.com/home?status=%22<?php echo substr($node->body_value, 0, 97); ?>...%22%20<?php print t('Learn more at feministinternet.net') ?>"><i class="ion-social-twitter"></i></a>
 				 		  </div>
 				 		  <div class="medium-5 ctas-grid  text-center columns">
