@@ -76,7 +76,8 @@ $resultPrinciples = $result0->fetchAllAssoc('nid');
 				 		$file = file_load($node->field_featured_image_fid);
 				 		$route = "sites/default/files/".$file->filename;
 				 	?>
-				 	<div style="background-image: url(<?php print_r($route); ?>);background-repeat: no-repeat;background-size: contain;background-position: center;">
+				 	<div>
+				 		<img src="<?php print_r($route); ?>" alt="">
 				 		<h4 class="text-center"><?php print $node->field_number_value; ?>. <?php print $node->title; ?></h4>
 				 		<i class="ion-plus-circled x2"></i>
 				 	</div>

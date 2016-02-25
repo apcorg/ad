@@ -7110,18 +7110,19 @@ section.login-form {
       z-index: 1; }
     #grid .fpi-row ul.fpi-ul li > div {
       cursor: pointer;
-      padding: 7px;
+      padding: 0.875rem 0.4375rem 0.4375rem 0.4375rem;
       border: 2px solid #FF8B64;
       box-sizing: border-box;
-      height: 175px;
+      height: 240px;
       position: relative; }
-      #grid .fpi-row ul.fpi-ul li > div h4 {
+      #grid .fpi-row ul.fpi-ul li > div img {
+        width: 160px; }
+      #grid .fpi-row ul.fpi-ul li > div h5 {
         position: relative;
-        top: 50%;
+        top: 14%;
         -webkit-transform: translateY(-50%);
             -ms-transform: translateY(-50%);
-                transform: translateY(-50%);
-        background-color: rgba(255, 255, 255, 0.4); }
+                transform: translateY(-50%); }
       #grid .fpi-row ul.fpi-ul li > div:hover, #grid .fpi-row ul.fpi-ul li > div.highlight {
         padding-top: 3px;
         border: 6px solid #FF8B64; }
@@ -7144,7 +7145,7 @@ section.login-form {
       position: absolute;
       height: 310px;
       width: 100%;
-      top: 210px;
+      margin-top: 21px;
       opacity: 0; }
       #grid .fpi-row .details-box.open {
         opacity: 1; }
