@@ -72,7 +72,8 @@ $resultPrinciples = $result0->fetchAllAssoc('nid');
 
 			<?php if ($rowNumber == 1 && $node->language == $lang_name): ?> 
 				 <li data-fpi-num=<?php print $node->field_number_value; ?> class="text-center">
-				 	<div style="background-image: url('<?php print $node->field_featured_image_fid; ?>');background-repeat: no-repeat;background-size: contain;background-position: center;">
+				 	<h1><?php print $node->field_featured_image_fid; ?></h1>
+				 	<div style="background-image: url('#');background-repeat: no-repeat;background-size: contain;background-position: center;">
 				 		<h4 class="text-center"><?php print $node->field_number_value; ?>. <?php print $node->title; ?></h4>
 				 		<i class="ion-plus-circled x2"></i>
 				 	</div>
