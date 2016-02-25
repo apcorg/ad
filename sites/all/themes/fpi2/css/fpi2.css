@@ -7383,6 +7383,6 @@ footer {
           -ms-transform: translateY(-50%);
               transform: translateY(-50%); }
   footer.down {
-    -webkit-transform: translate3d(0, 320px, 0);
-            transform: translate3d(0, 320px, 0);
+    -webkit-transform: translate3d(0, 360px, 0);
+            transform: translate3d(0, 360px, 0);
     z-index: 1; }

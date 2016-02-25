@@ -10,7 +10,7 @@ $lang_name = $language->language ; ?>
   </div>
 </section>
 <!-- banner ends -->
-<h4 class="text-center pt-21">The Feminist Principles of The Internet</h4> 
+<h4 class="text-center pt-21">The African Declaration on Internet Rights and Freedoms</h4> 
 <!-- menu bar -->
 <section id="menu" class="pt-21">
   <ul>
