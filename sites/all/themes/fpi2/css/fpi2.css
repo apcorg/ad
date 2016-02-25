@@ -7097,7 +7097,7 @@ section.login-form {
 
 #grid {
   padding-top: 3em;
-  height: 1260px; }
+  height: 1412px; }
   #grid .fpi-row {
     position: relative;
     z-index: 2;
@@ -7110,7 +7110,7 @@ section.login-form {
       z-index: 1; }
     #grid .fpi-row ul.fpi-ul li > div {
       cursor: pointer;
-      padding: 0.875rem 0.4375rem 0.4375rem 0.4375rem;
+      padding: 0.875rem 0 0.4375rem 0;
       border: 2px solid #FF8B64;
       box-sizing: border-box;
       height: 240px;
