@@ -52,6 +52,7 @@ $result0 = $query
     ->execute();
 
 $resultPrinciples = $result0->fetchAllAssoc('nid');
+print_r($resultPrinciples);
 
 ?>
 
