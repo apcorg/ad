@@ -47,12 +47,12 @@ $result0 = $query
     ->fields('fdfr', array('field_row_number_value'))
     ->fields('fdn', array('field_number_value'))
     ->fields('img', array('field_featured_image_fid'))
+    ->orderBy('field_number_value', 'ASC')
     ->condition('type', 'principles')
     ->condition('status', 1)
     ->execute();
 
 $resultPrinciples = $result0->fetchAllAssoc('nid');
-print_r($resultPrinciples);
 
 ?>
 
