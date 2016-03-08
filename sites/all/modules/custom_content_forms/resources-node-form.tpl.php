@@ -6,9 +6,9 @@ if (array_key_exists('nid',$param)) {
    print '<div class="chosen-resource">';
    print_r( $principle->body['und'][0]['value']); 
    print '</div>';
-   print '<h5>Add a new resource. Contribute to this principle.</h5>';
+   print '<h5 class="montse">Add a new resource. Contribute to this principle.</h5>';
    } else {
-   print '<h5>Add a new resource. Contribute to the Feminist Principles of the Internet.</h5>';
+   print '<h5 class="montse">Add a new resource. Contribute to the African Declaration On Internet Rights and Freedom.</h5>';
    }
 ?>
 <div class="add-resource">
