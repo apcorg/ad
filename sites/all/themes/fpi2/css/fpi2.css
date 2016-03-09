@@ -7371,7 +7371,7 @@ body.mobile-menu-active {
   margin-bottom: 1.75rem; }
 
 .row.faq {
-  margin-top: 0.875rem; }
+  margin: 0 auto; }
   .row.faq .question {
     border-radius: 50%;
     background-color: #2cc376;
