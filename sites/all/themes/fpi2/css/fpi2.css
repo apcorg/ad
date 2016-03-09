@@ -7391,7 +7391,7 @@ section.login-form {
         color: #fff;
         margin: 0; }
 
-.login-form button {
+.login-form button.radius.secondary {
   background: none;
   border-radius: 0;
   border: 2px solid #2cc376;
