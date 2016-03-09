@@ -20,7 +20,7 @@ function custom_content_forms_theme() {
 function custom_content_forms_form_alter(&$form, &$form_state, $form_id) {
   if ($form_id == 'multimedia_node_form') {
       $form['multimedia_node_form']=array(
-                           '#markup' => t('<h5>Add an item to the multimedia gallery</h5>'),
+                           '#markup' => t('<h5 class="montse">Add an item to the multimedia gallery</h5>'),
                            '#weight' => -1,
     );
   }
