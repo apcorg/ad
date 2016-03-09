@@ -1,9 +1,9 @@
-<div class="show-for-medium-up medium-2 text-center columns">
-  <div class="question">
-    <h1>?</h1>
+<div class="small-8 medium-10 columns">
+  <div class="question text-center">
+    <h4>?</h4>
   </div>
+  <h5><?php print $fields["title"]->content; ?></h5>
+  <h5><?php print $fields["body"]->content; ?> </h5>
 </div>
-<div class="small-12 medium-10 columns">
-	<?php print $fields["title"]->content; ?>
-	<?php print $fields["body"]->content; ?>
-</div>
+	
+	

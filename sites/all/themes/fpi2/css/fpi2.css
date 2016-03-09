@@ -7372,24 +7372,17 @@ body.mobile-menu-active {
 
 .row.faq {
   margin-top: 0.875rem; }
-  .row.faq .medium-2 {
-    height: 100%;
-    border-right: 2px solid #FF8B64;
-    position: relative; }
-    .row.faq .medium-2 .question {
-      position: relative;
-      top: 50%;
-      -webkit-transform: translateY(-50%);
-          -ms-transform: translateY(-50%);
-              transform: translateY(-50%);
-      border-radius: 50%;
-      background-color: #2cc376;
-      height: 60px;
-      width: 60px;
-      float: right; }
-      .row.faq .medium-2 .question h1 {
-        color: #fff;
-        margin: 0; }
+  .row.faq .question {
+    border-radius: 50%;
+    background-color: #2cc376;
+    height: 30px;
+    width: 30px;
+    display: inline-block; }
+    .row.faq .question h4 {
+      color: #fff;
+      margin: 0; }
+  .row.faq h5 {
+    display: inline-block; }
 
 .login-form {
   border: 2px solid #2cc376;
