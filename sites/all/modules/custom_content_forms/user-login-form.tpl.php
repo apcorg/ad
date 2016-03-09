@@ -17,8 +17,8 @@
       ?>
 
       <div class="user-login-links">
-        <p class="password-link"><a href="/user/password"><?php print t('Forgot your password?'); ?></a></p>
-        <p class="password-link"><a href="/user/register"><?php print t('Need to create an account?'); ?></a></p>
+        <p class="m-0"><a href="/user/password"><?php print t('Forgot your password?'); ?></a></p>
+        <p class="m-0"><a href="/user/register"><?php print t('Need to create an account?'); ?></a></p>
       </div>
       <!-- /user-login-custom-form -->
     </div>
