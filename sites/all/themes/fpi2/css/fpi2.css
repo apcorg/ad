@@ -6924,7 +6924,7 @@ th.hide-for-touch {
       text-align: justify; }
 
 main {
-  padding-top: 5%;
+  padding-top: 10%;
   min-height: 86vh; }
   @media only screen and (max-width: 41.688em) {
     main {
@@ -7392,6 +7392,12 @@ section.login-form {
         margin: 0; }
 
 .login-form button.radius.secondary {
+  background: none;
+  border-radius: 0;
+  border: 2px solid #2cc376;
+  padding: 0.4375rem 0.875rem; }
+
+#user-register-form button.radius.secondary {
   background: none;
   border-radius: 0;
   border: 2px solid #2cc376;
