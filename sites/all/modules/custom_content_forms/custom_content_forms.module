@@ -18,16 +18,22 @@ function custom_content_forms_theme() {
     );
 }
 function custom_content_forms_form_alter(&$form, &$form_state, $form_id) {
-if ($form_id == 'multimedia_node_form') {
-    $form['multimedia_node_form']=array(
-                         '#markup' => t('<h5>Add an item to the multimedia gallery</h5>'),
-                         '#weight' => -1,
-  );
+  if ($form_id == 'multimedia_node_form') {
+      $form['multimedia_node_form']=array(
+                           '#markup' => t('<h5>Add an item to the multimedia gallery</h5>'),
+                           '#weight' => -1,
+    );
   }
-if ($form_id == 'user_register_form') {
-    $form['user_register_form']=array(
-                         '#markup' => t('<h5 class="montse">Create a user account</h5>'),
-                         '#weight' => 1,
-  );
+  if ($form_id == 'user_register_form') {
+      $form['user_register_form']=array(
+                             '#markup' => t('<h5 class="montse">Create a user account</h5>'),
+                             '#weight' => -1,
+      );
+  }
+  if ($form_id == 'user_login') {
+      $form['user_login']=array(
+                             '#markup' => t('<h5 class="montse">Log in to your account</h5>'),
+                             '#weight' => -1,
+      );
   }
 }
