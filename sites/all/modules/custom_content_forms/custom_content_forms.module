@@ -23,6 +23,12 @@ if ($form_id == 'multimedia_node_form') {
                          '#markup' => t('<h5>Add an item to the multimedia gallery</h5>'),
                          '#weight' => -1,
   );
-   }
-
+  }
+}
+if ($form_id == 'user_register_form') {
+    $form['user_register_form']=array(
+                         '#markup' => t('<h5>Add an item to the multimedia gallery</h5>'),
+                         '#weight' => -1,
+  );
+  }
 }
