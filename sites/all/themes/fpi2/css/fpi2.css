@@ -7328,13 +7328,25 @@ section.login-form {
 .view-id-multimedia.view-id-multimedia {
   padding-bottom: 14%; }
   .view-id-multimedia.view-id-multimedia .small-block-grid-2.medium-block-grid-4 {
-    border: 2px solid #2cc376;
     margin-top: 1.75rem;
     margin-left: 0;
     margin-right: 0;
     padding-top: 1.75rem; }
     .view-id-multimedia.view-id-multimedia .small-block-grid-2.medium-block-grid-4 a {
       display: block; }
+    .view-id-multimedia.view-id-multimedia .small-block-grid-2.medium-block-grid-4 li {
+      text-align: center; }
+      .view-id-multimedia.view-id-multimedia .small-block-grid-2.medium-block-grid-4 li a div.image {
+        margin: 0;
+        border-radius: 5px 5px 0 0;
+        overflow: hidden; }
+        .view-id-multimedia.view-id-multimedia .small-block-grid-2.medium-block-grid-4 li a div.image img {
+          max-height: 264px;
+          max-width: none; }
+      .view-id-multimedia.view-id-multimedia .small-block-grid-2.medium-block-grid-4 li .asset-info {
+        border-radius: 0 0 5px 5px;
+        position: relative;
+        background-color: #EDEDED; }
 
 #multimedia-node-form {
   margin-bottom: 49px; }
@@ -7351,20 +7363,6 @@ section.login-form {
       border: 2px solid #2cc376;
       background: #fff;
       color: #000000; }
-
-.multimedia ul li {
-  text-align: center; }
-  .multimedia ul li a div.image {
-    margin: 0;
-    border-radius: 5px 5px 0 0;
-    overflow: hidden; }
-    .multimedia ul li a div.image img {
-      max-height: 264px;
-      max-width: none; }
-  .multimedia ul li .asset-info {
-    border-radius: 0 0 5px 5px;
-    position: relative;
-    background-color: #EDEDED; }
 
 .view-id-faq.view-display-id-page .view-content {
   border: 2px solid #FF8B64;
