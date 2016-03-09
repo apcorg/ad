@@ -27,7 +27,7 @@ if ($form_id == 'multimedia_node_form') {
 if ($form_id == 'user_register_form') {
     $form['user_register_form']=array(
                          '#markup' => t('<h5 class="montse">Create a user account</h5>'),
-                         '#weight' => -3,
+                         '#weight' => 1,
   );
   }
 }
