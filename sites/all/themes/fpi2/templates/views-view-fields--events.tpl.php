@@ -1,4 +1,4 @@
-<div class="event mb-14 row">
+<div class="event mb-21 row">
 	<div class="columns medium-4">
 		<?php print $fields["field_featured_image"]->content; ?>
 	</div>

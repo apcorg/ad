@@ -7316,11 +7316,13 @@ body.mobile-menu-active {
 .field-name-field-place-of-the-event .field-label, .field-name-field-event-date .field-label {
   display: inline-block; }
 
-.view-id-events .view-content {
-  padding: 0.875rem; }
-  .view-id-events .view-content .row.event {
-    border: 2px solid #2cc376;
-    padding: 0.875rem 0; }
+.view-id-events {
+  padding-bottom: 4.375rem; }
+  .view-id-events .view-content {
+    padding: 0.875rem; }
+    .view-id-events .view-content .row.event {
+      border: 2px solid #2cc376;
+      padding: 0.875rem 0; }
 
 .view-id-multimedia.view-id-multimedia, .multimedia {
   padding-bottom: 14%; }
