@@ -6924,7 +6924,7 @@ th.hide-for-touch {
       text-align: justify; }
 
 main {
-  padding-top: 10%;
+  padding-top: 5%;
   min-height: 86vh; }
   @media only screen and (max-width: 41.688em) {
     main {
@@ -7390,6 +7390,12 @@ section.login-form {
       .row.faq .medium-2 .question h1 {
         color: #fff;
         margin: 0; }
+
+.login-form button {
+  background: none;
+  border-radius: 0;
+  border: 2px solid #2cc376;
+  padding: 0.4375rem 0.875rem; }
 
 footer {
   background-color: #2cc376;
