@@ -7321,9 +7321,6 @@ body.mobile-menu-active {
   .view-id-events .view-content .row.event {
     border: 2px solid #2cc376;
     padding: 0.875rem 0; }
-    @media only screen and (min-width: 41.688em) {
-      .view-id-events .view-content .row.event {
-        height: 170px; } }
 
 .view-id-multimedia.view-id-multimedia, .multimedia {
   padding-bottom: 14%; }
