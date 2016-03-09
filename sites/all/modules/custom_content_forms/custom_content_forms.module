@@ -30,10 +30,4 @@ function custom_content_forms_form_alter(&$form, &$form_state, $form_id) {
                              '#weight' => -1,
       );
   }
-  if ($form_id == 'user_login') {
-      $form['user_login']=array(
-                             '#markup' => t('<h5 class="montse">Log in to your account</h5>'),
-                             '#weight' => -1,
-      );
-  }
 }
