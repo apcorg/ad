@@ -7336,11 +7336,11 @@ section.login-form {
       display: block; }
     .view-id-multimedia.view-id-multimedia .small-block-grid-2.medium-block-grid-4 li, .multimedia .small-block-grid-2.medium-block-grid-4 li {
       text-align: center; }
-      .view-id-multimedia.view-id-multimedia .small-block-grid-2.medium-block-grid-4 li a div.image, .multimedia .small-block-grid-2.medium-block-grid-4 li a div.image {
+      .view-id-multimedia.view-id-multimedia .small-block-grid-2.medium-block-grid-4 li div.image, .multimedia .small-block-grid-2.medium-block-grid-4 li div.image {
         margin: 0;
         border-radius: 5px 5px 0 0;
         overflow: hidden; }
-        .view-id-multimedia.view-id-multimedia .small-block-grid-2.medium-block-grid-4 li a div.image img, .multimedia .small-block-grid-2.medium-block-grid-4 li a div.image img {
+        .view-id-multimedia.view-id-multimedia .small-block-grid-2.medium-block-grid-4 li div.image a img, .multimedia .small-block-grid-2.medium-block-grid-4 li div.image a img {
           max-height: 264px;
           max-width: none; }
       .view-id-multimedia.view-id-multimedia .small-block-grid-2.medium-block-grid-4 li .asset-info, .multimedia .small-block-grid-2.medium-block-grid-4 li .asset-info {
