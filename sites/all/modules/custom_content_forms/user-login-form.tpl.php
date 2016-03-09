@@ -1,4 +1,4 @@
-<section class="login-form">
+<section class="login-form pvp-3">
   <div class="row">
     <div class="columns small-8 small-offset-2">
       <h5 class="montse">Log in to your account</h5>
