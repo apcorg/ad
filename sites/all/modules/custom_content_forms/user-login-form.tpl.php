@@ -18,6 +18,7 @@
 
       <div class="user-login-links">
         <span class="password-link"><a href="/user/password"><?php print t('Forgot your password?'); ?></a></span>
+        <span class="password-link"><a href="/user/register"><?php print t('Need to create an account?'); ?></a></span>
       </div>
       <!-- /user-login-custom-form -->
     </div>
