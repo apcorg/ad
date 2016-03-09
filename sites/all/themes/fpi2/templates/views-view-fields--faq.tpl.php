@@ -1,4 +1,4 @@
-<div class="small-8 medium-10 columns">
+<div class="small-12 columns">
   <div class="question text-center">
     <h4>?</h4>
   </div>
