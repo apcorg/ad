@@ -17,8 +17,7 @@
       ?>
 
       <div class="user-login-links">
-        <span class="password-link"><a href="/user/password"><?php print t('Forgot your password?'); ?></a></span> <br>
-        <span class="password-link"><?php print t('If you don\'t have an account you can request one by emailing <b>join@feministinternet.net</b>');?></a></span>
+        <span class="password-link"><a href="/user/password"><?php print t('Forgot your password?'); ?></a></span>
       </div>
       <!-- /user-login-custom-form -->
     </div>
