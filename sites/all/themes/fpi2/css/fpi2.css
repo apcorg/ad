@@ -7325,25 +7325,25 @@ section.login-form {
       .view-id-events .view-content .row.event {
         height: 170px; } }
 
-.view-id-multimedia.view-id-multimedia {
+.view-id-multimedia.view-id-multimedia, .multimedia {
   padding-bottom: 14%; }
-  .view-id-multimedia.view-id-multimedia .small-block-grid-2.medium-block-grid-4 {
+  .view-id-multimedia.view-id-multimedia .small-block-grid-2.medium-block-grid-4, .multimedia .small-block-grid-2.medium-block-grid-4 {
     margin-top: 1.75rem;
     margin-left: 0;
     margin-right: 0;
     padding-top: 1.75rem; }
-    .view-id-multimedia.view-id-multimedia .small-block-grid-2.medium-block-grid-4 a {
+    .view-id-multimedia.view-id-multimedia .small-block-grid-2.medium-block-grid-4 a, .multimedia .small-block-grid-2.medium-block-grid-4 a {
       display: block; }
-    .view-id-multimedia.view-id-multimedia .small-block-grid-2.medium-block-grid-4 li {
+    .view-id-multimedia.view-id-multimedia .small-block-grid-2.medium-block-grid-4 li, .multimedia .small-block-grid-2.medium-block-grid-4 li {
       text-align: center; }
-      .view-id-multimedia.view-id-multimedia .small-block-grid-2.medium-block-grid-4 li a div.image {
+      .view-id-multimedia.view-id-multimedia .small-block-grid-2.medium-block-grid-4 li a div.image, .multimedia .small-block-grid-2.medium-block-grid-4 li a div.image {
         margin: 0;
         border-radius: 5px 5px 0 0;
         overflow: hidden; }
-        .view-id-multimedia.view-id-multimedia .small-block-grid-2.medium-block-grid-4 li a div.image img {
+        .view-id-multimedia.view-id-multimedia .small-block-grid-2.medium-block-grid-4 li a div.image img, .multimedia .small-block-grid-2.medium-block-grid-4 li a div.image img {
           max-height: 264px;
           max-width: none; }
-      .view-id-multimedia.view-id-multimedia .small-block-grid-2.medium-block-grid-4 li .asset-info {
+      .view-id-multimedia.view-id-multimedia .small-block-grid-2.medium-block-grid-4 li .asset-info, .multimedia .small-block-grid-2.medium-block-grid-4 li .asset-info {
         border-radius: 0 0 5px 5px;
         position: relative;
         background-color: #EDEDED; }
