@@ -94,7 +94,8 @@ $resultPrinciples = $result0->fetchAllAssoc('nid');
 				 		    <a target="_blank" href="http://twitter.com/home?status=%22<?php echo substr($node->body_value, 0, 97); ?>...%22%20<?php print t('Learn more at feministinternet.net') ?>"><i class="ion-social-twitter"></i></a>
 				 		  </div>
 				 		  <div class="medium-5 ctas-grid  text-center columns">
-				 		    <a class="custom-button" href=/see-principle/<?php print $node->nid; ?>><?php print t('Background reading') ?></a>
+				 		    <a class="" href=/see-principle/<?php print $node->nid; ?>><i class="ion-ios-list-outline bold-icon x2"></i><span>&nbsp;<?php print t('Background reading') ?></span></a>
+				 		    <a class="" href=/see-principle/<?php print $node->nid; ?>><i class="ion-chatboxes x2"></i><span>&nbsp;<?php print t('Join the conversation') ?></span></a>
 				 		  </div>
 				 		</div>
 				 	</div>

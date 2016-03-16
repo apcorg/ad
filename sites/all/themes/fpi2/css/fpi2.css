@@ -6949,6 +6949,9 @@ h3.title {
 .not-logged-in ul.button-group {
   display: none; }
 
+i.bold-icon:before {
+  font-weight: bold; }
+
 ul.breadcrumbs {
   display: none; }
 
@@ -7161,13 +7164,17 @@ body.mobile-menu-active {
         z-index: 1;
         position: relative; }
         #grid .fpi-row .details-box .detail-box .ctas-grid {
-          height: 270px; }
-          #grid .fpi-row .details-box .detail-box .ctas-grid a.custom-button {
+          height: 220px; }
+          #grid .fpi-row .details-box .detail-box .ctas-grid a {
             position: relative;
             top: 50%;
             -webkit-transform: translateY(-50%);
                 -ms-transform: translateY(-50%);
-                    transform: translateY(-50%); }
+                    transform: translateY(-50%);
+            display: block; }
+            #grid .fpi-row .details-box .detail-box .ctas-grid a i {
+              color: #2cc376;
+              vertical-align: middle; }
   #grid .details-box {
     border: 2px solid #FF8B64;
     margin-bottom: 1.5em;
