@@ -1,4 +1,4 @@
-<?php $default_image="<img src='/sites/default/files/8-de-marzo-2011.jpg'>";
+<?php $default_image="<img src='/sites/default/files/video.png'>";
       $image=$fields["field_image"]->content;
       if (! $image) $image=$default_image;
  ?>
