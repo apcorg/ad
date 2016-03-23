@@ -1,5 +1,5 @@
 <div class="row pbp-7">
-	<h4 class="text-center"><?php print $fields['title']->content;?></h4>
+	<h4 class="text-center montse"><?php print $fields['title']->content;?></h4>
 	<div class="columns medium-10 medium-offset-1 pt-28 pb-28">
 		<?php print $fields['field_mm_description']->content; ?>
 		<div class="text-center pt-28">
