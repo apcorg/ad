@@ -7153,25 +7153,30 @@ body.mobile-menu-active {
           background: #fff; }
     #grid .fpi-row .details-box {
       position: absolute;
-      height: 310px;
+      height: 330px;
       width: 100%;
       margin-top: 21px;
       opacity: 0; }
       #grid .fpi-row .details-box.open {
         opacity: 1; }
       #grid .fpi-row .details-box .detail-box {
-        margin-top: -28px;
+        margin-top: -21px;
         z-index: 1;
-        position: relative; }
+        position: relative;
+        padding-left: 1.75rem;
+        padding-right: 0.875rem; }
         #grid .fpi-row .details-box .detail-box .ctas-grid {
-          height: 220px; }
+          height: 200px;
+          width: 40%;
+          float: left; }
           #grid .fpi-row .details-box .detail-box .ctas-grid a {
             position: relative;
             top: 50%;
             -webkit-transform: translateY(-50%);
                 -ms-transform: translateY(-50%);
                     transform: translateY(-50%);
-            display: block; }
+            margin: 0 auto;
+            width: 240px; }
             #grid .fpi-row .details-box .detail-box .ctas-grid a i {
               color: #2cc376;
               vertical-align: middle; }
@@ -7186,20 +7191,23 @@ body.mobile-menu-active {
       #grid .details-box .close .ion-close-circled {
         color: #FF8B64;
         cursor: pointer; }
-    #grid .details-box .row .full-text {
+    #grid .details-box .full-text {
       background: #fff;
       height: 270px;
+      float: left;
+      width: 60%;
+      padding: 0.875rem;
       position: relative;
       text-align: justify;
       -webkit-transform-style: preserve-3d;
               transform-style: preserve-3d; }
-      #grid .details-box .row .full-text p {
+      #grid .details-box .full-text p {
         position: relative;
         top: 50%;
         -webkit-transform: translateY(-50%);
             -ms-transform: translateY(-50%);
                 transform: translateY(-50%); }
-      #grid .details-box .row .full-text i {
+      #grid .details-box .full-text i {
         position: absolute;
         right: 0;
         bottom: 0;
