@@ -7242,7 +7242,8 @@ body.mobile-menu-active {
   padding: 0.875rem;
   border: 2px solid #FF8B64; }
   .see-principle > div {
-    display: inline-block; }
+    display: inline-block;
+    text-align: justify; }
 
 .views-field-nid {
   padding-top: 28px;
@@ -7255,10 +7256,8 @@ body.mobile-menu-active {
   padding-bottom: 3.0625rem; }
   .view-see-principle.view-display-id-page .views-row {
     border: 2px solid #2cc376;
-    padding: 14px;
     padding: 0.875rem;
-    margin-bottom: 14px;
-    margin-bottom: 0.875rem; }
+    margin-bottom: 2.1875rem; }
     .view-see-principle.view-display-id-page .views-row .views-field-title-1 {
       font-weight: bold; }
     .view-see-principle.view-display-id-page .views-row p {
