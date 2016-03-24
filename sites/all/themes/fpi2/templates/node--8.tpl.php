@@ -19,7 +19,7 @@ $lang_name = $language->language ; ?>
     </li>
     <li class="cta ph-7">
       <i class="x1-5 sec-color ion-android-share-alt"></i>
-      <a target="_blank" href="http://twitter.com/home?status=%22<?php print t('I just read the African Declaration of Internet Rights and Freedom. Find it at africaninternetrights.net/') ?>">
+      <a target="_blank" href="http://twitter.com/home?status=<?php print t('I just read the African Declaration of Internet Rights and Freedom. Find it at africaninternetrights.net/') ?>">
 	      <div class="wrapper">
 	        <span>Share</span>
 	      </div>
