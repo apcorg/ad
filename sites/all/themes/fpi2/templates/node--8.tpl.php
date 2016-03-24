@@ -19,9 +19,11 @@ $lang_name = $language->language ; ?>
     </li>
     <li class="cta ph-7">
       <i class="x1-5 sec-color ion-android-share-alt"></i>
-      <div class="wrapper">
-        <span>Share</span>
-      </div>
+      <a target="_blank" href="http://twitter.com/home?status=%22<?php print t('I just read the African Declaration of Internet Rights and Freedom. Find it at africaninternetrights.net/') ?>">
+	      <div class="wrapper">
+	        <span>Share</span>
+	      </div>
+      </a>
     </li>
     <li class="mt--7"><i class="hide-for-small-only pri-color ion-navicon-round x2" id="toggle"></i></li>
   </ul>
@@ -90,7 +92,7 @@ $resultPrinciples = $result0->fetchAllAssoc('nid');
 				 	<div data-fpi-details=<?php print $node->field_number_value; ?> class="detail-box hidden">
 			 		  <div class="full-text">
 			 		    <p><?php print $node->field_number_value; ?>. <?php print $node->body_value; ?></p>
-			 		    <a target="_blank" href="http://twitter.com/home?status=%22<?php echo substr($node->body_value, 0, 97); ?>...%22%20<?php print t('Learn more at feministinternet.net') ?>"><i class="ion-social-twitter"></i></a>
+			 		    <a target="_blank" href="http://twitter.com/home?status=%22<?php echo substr($node->body_value, 0, 97); ?>...%22%20<?php print t('Learn more at africaninternetrights.net/') ?>"><i class="ion-social-twitter"></i></a>
 			 		  </div>
 			 		  <div class="ctas-grid text-center">
 			 		    <a class="custom-button" href=/see-principle/<?php print $node->nid; ?>><i class="ion-ios-list-outline bold-icon x2"></i><span>&nbsp;<?php print t('Background reading') ?></span></a>
@@ -135,7 +137,7 @@ $resultPrinciples = $result0->fetchAllAssoc('nid');
 			 	<div data-fpi-details=<?php print $node->field_number_value; ?> class="detail-box hidden">
 		 		  <div class="full-text">
 		 		    <p><?php print $node->field_number_value; ?>. <?php print $node->body_value; ?></p>
-		 		    <a target="_blank" href="http://twitter.com/home?status=%22<?php echo substr($node->body_value, 0, 97); ?>...%22%20<?php print t('Learn more at feministinternet.net') ?>"><i class="ion-social-twitter"></i></a>
+		 		    <a target="_blank" href="http://twitter.com/home?status=%22<?php echo substr($node->body_value, 0, 97); ?>...%22%20<?php print t('Learn more at africaninternetrights.net/') ?>"><i class="ion-social-twitter"></i></a>
 		 		  </div>
 		 		  <div class="ctas-grid text-center">
 		 		    <a class="custom-button" href=/see-principle/<?php print $node->nid; ?>><i class="ion-ios-list-outline bold-icon x2"></i><span>&nbsp;<?php print t('Background reading') ?></span></a>
@@ -180,7 +182,7 @@ $resultPrinciples = $result0->fetchAllAssoc('nid');
 			 	<div data-fpi-details=<?php print $node->field_number_value; ?> class="detail-box hidden">
 		 		  <div class="full-text">
 		 		    <p><?php print $node->field_number_value; ?>. <?php print $node->body_value; ?></p>
-		 		    <a target="_blank" href="http://twitter.com/home?status=%22<?php echo substr($node->body_value, 0, 97); ?>...%22%20<?php print t('Learn more at feministinternet.net') ?>"><i class="ion-social-twitter"></i></a>
+		 		    <a target="_blank" href="http://twitter.com/home?status=%22<?php echo substr($node->body_value, 0, 97); ?>...%22%20<?php print t('Learn more at africaninternetrights.net/') ?>"><i class="ion-social-twitter"></i></a>
 		 		  </div>
 		 		  <div class="ctas-grid text-center">
 		 		    <a class="custom-button" href=/see-principle/<?php print $node->nid; ?>><i class="ion-ios-list-outline bold-icon x2"></i><span>&nbsp;<?php print t('Background reading') ?></span></a>
@@ -224,7 +226,7 @@ $resultPrinciples = $result0->fetchAllAssoc('nid');
 			 	<div data-fpi-details=<?php print $node->field_number_value; ?> class="detail-box hidden">
 		 		  <div class="full-text">
 		 		    <p><?php print $node->field_number_value; ?>. <?php print $node->body_value; ?></p>
-		 		    <a target="_blank" href="http://twitter.com/home?status=%22<?php echo substr($node->body_value, 0, 97); ?>...%22%20<?php print t('Learn more at feministinternet.net') ?>"><i class="ion-social-twitter"></i></a>
+		 		    <a target="_blank" href="http://twitter.com/home?status=%22<?php echo substr($node->body_value, 0, 97); ?>...%22%20<?php print t('Learn more at africaninternetrights.net/') ?>"><i class="ion-social-twitter"></i></a>
 		 		  </div>
 		 		  <div class="ctas-grid text-center">
 		 		    <a class="custom-button" href=/see-principle/<?php print $node->nid; ?>><i class="ion-ios-list-outline bold-icon x2"></i><span>&nbsp;<?php print t('Background reading') ?></span></a>
@@ -267,7 +269,7 @@ $resultPrinciples = $result0->fetchAllAssoc('nid');
 			 	<div data-fpi-details=<?php print $node->field_number_value; ?> class="detail-box hidden">
 		 		  <div class="full-text">
 		 		    <p><?php print $node->field_number_value; ?>. <?php print $node->body_value; ?></p>
-		 		    <a target="_blank" href="http://twitter.com/home?status=%22<?php echo substr($node->body_value, 0, 97); ?>...%22%20<?php print t('Learn more at feministinternet.net') ?>"><i class="ion-social-twitter"></i></a>
+		 		    <a target="_blank" href="http://twitter.com/home?status=%22<?php echo substr($node->body_value, 0, 97); ?>...%22%20<?php print t('Learn more at africaninternetrights.net/') ?>"><i class="ion-social-twitter"></i></a>
 		 		  </div>
 		 		  <div class="ctas-grid text-center">
 		 		    <a class="custom-button" href=/see-principle/<?php print $node->nid; ?>><i class="ion-ios-list-outline bold-icon x2"></i><span>&nbsp;<?php print t('Background reading') ?></span></a>
