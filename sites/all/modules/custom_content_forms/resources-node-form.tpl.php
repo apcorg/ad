@@ -31,5 +31,5 @@ if (array_key_exists('nid',$param)) {
       <?php print drupal_render($form['field_files_attached']); ?>   
   </div>
   <div><?php print drupal_render($form['actions']); ?></div>
-  <!-- <?php print drupal_render_children($form);  ?> -->
+  <?php print drupal_render_children($form);  ?>
 </div>
