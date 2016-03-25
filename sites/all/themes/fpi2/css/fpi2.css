@@ -7267,7 +7267,7 @@ body.mobile-menu-active {
     padding-top: 14px;
     padding-top: 0.875rem; }
 
-#edit-submit-see-principle {
+#edit-submit-see-principle, #edit-submit-resources {
   -webkit-appearance: none;
   -moz-appearance: none;
   border-radius: 0;
@@ -7295,12 +7295,14 @@ body.mobile-menu-active {
   color: #000000;
   padding: 0.35rem 1.3125rem; }
   #edit-submit-see-principle:hover,
-  #edit-submit-see-principle:focus {
+  #edit-submit-see-principle:focus, #edit-submit-resources:hover,
+  #edit-submit-resources:focus {
     background-color: #007095; }
   #edit-submit-see-principle:hover,
-  #edit-submit-see-principle:focus {
+  #edit-submit-see-principle:focus, #edit-submit-resources:hover,
+  #edit-submit-resources:focus {
     color: #FFFFFF; }
-  #edit-submit-see-principle:hover {
+  #edit-submit-see-principle:hover, #edit-submit-resources:hover {
     background: #fff;
     color: #000000; }
 
