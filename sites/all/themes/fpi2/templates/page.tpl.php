@@ -206,7 +206,7 @@
   <?php endif; ?>
 
   <!--.l-footer -->
-  <footer id="footer" class="l-footer xxxrow" role="contentinfo">
+  <footer id="footer" class="l-footer mt-21" role="contentinfo">
     <?php if (!empty($page['footer'])): ?>
       <?php print render($page['footer']); ?>
     <?php endif; ?>
