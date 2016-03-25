@@ -1,6 +1,4 @@
-<p> with template....</p>
-
-<?php  print $node->title.'<br>'; ?>
+<h4 class="text-center"><?php  print $node->title.; ?></h4>
 <?php  print $node->field_description['und'][0]['value'].'<br>'; ?>
 <p>associated_with_principle</p>
 <?php 
