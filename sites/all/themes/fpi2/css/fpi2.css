@@ -7251,19 +7251,19 @@ body.mobile-menu-active {
   padding-bottom: 21px;
   padding-bottom: 1.3125rem; }
 
-.view-see-principle.view-display-id-page {
+.view-see-principle.view-display-id-page, .view-id-resources {
   padding-bottom: 49px;
   padding-bottom: 3.0625rem; }
-  .view-see-principle.view-display-id-page .views-row {
+  .view-see-principle.view-display-id-page .view-content > div, .view-id-resources .view-content > div {
     border: 2px solid #2cc376;
     padding: 0.875rem;
     margin-bottom: 2.1875rem; }
-    .view-see-principle.view-display-id-page .views-row .views-field-title-1 {
+    .view-see-principle.view-display-id-page .view-content > div .views-field-title-1, .view-id-resources .view-content > div .views-field-title-1 {
       font-weight: bold; }
-    .view-see-principle.view-display-id-page .views-row p {
+    .view-see-principle.view-display-id-page .view-content > div p, .view-id-resources .view-content > div p {
       margin-bottom: 0.8rem;
       margin-top: 0.8rem; }
-  .view-see-principle.view-display-id-page .view-filters {
+  .view-see-principle.view-display-id-page .view-filters, .view-id-resources .view-filters {
     padding-top: 14px;
     padding-top: 0.875rem; }
 
