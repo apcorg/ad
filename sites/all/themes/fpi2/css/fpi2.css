@@ -7105,6 +7105,11 @@ body.mobile-menu-active {
 .view-id-see_principle {
   padding: 0 0.4375rem; }
 
+.see-principle {
+  padding: 14px;
+  padding: 0.875rem;
+  border: 2px solid #FF8B64; }
+
 #grid {
   padding-top: 3em;
   height: 1412px; }
@@ -7236,14 +7241,6 @@ body.mobile-menu-active {
   padding: 0.4rem 1rem;
   font-size: 0.8rem;
   margin-top: 7px; }
-
-.see-principle {
-  padding: 14px;
-  padding: 0.875rem;
-  border: 2px solid #FF8B64; }
-  .see-principle > div {
-    display: inline-block;
-    text-align: justify; }
 
 .views-field-nid {
   padding-top: 28px;
