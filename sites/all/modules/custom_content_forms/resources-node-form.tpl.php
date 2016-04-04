@@ -2,9 +2,11 @@
 $principle='';
 if (array_key_exists('nid',$param)) {
    $principle=node_load($param['nid']);
+   print_r( $principle); 
+   $number = $principle->field_number['und'][0]['value'];
+   $title = $principle->title;
    print '<div class="chosen-resource">';
-   print_r( $principle->field_number['und'][0]['value']); 
-   print_r( $principle->title); 
+   print_r( '<h5 class="montse">'.$number.'.&nbsp;'.$title.'</h5>'); 
    print_r( $principle->body['und'][0]['value']); 
    print '</div>';
    print '<h5>Add a new resource. Contribute to this principle.</h5>';
