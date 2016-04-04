@@ -2,7 +2,6 @@
 $principle='';
 if (array_key_exists('nid',$param)) {
    $principle=node_load($param['nid']);
-   print_r( $principle); 
    $number = $principle->field_number['und'][0]['value'];
    $title = $principle->title;
    print '<div class="chosen-resource">';
