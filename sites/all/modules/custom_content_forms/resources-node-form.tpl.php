@@ -10,7 +10,7 @@ if (array_key_exists('nid',$param)) {
    print '</div>';
    print '<h5>Add a new resource. Contribute to this principle.</h5>';
    } else {
-   print '<h5>Add a new resource. Contribute to the Feminist Principles of the Internet.</h5>';
+   print '<h5>Add a new resource. Contribute to The African Declaration On Internet Rights And Freedoms.</h5>';
    }
 ?>
 <div class="add-resource">
