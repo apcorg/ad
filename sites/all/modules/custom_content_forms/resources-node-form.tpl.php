@@ -8,9 +8,9 @@ if (array_key_exists('nid',$param)) {
    print_r( '<h5 class="montse">'.$number.'.&nbsp;'.$title.'</h5>'); 
    print_r( $principle->body['und'][0]['value']); 
    print '</div>';
-   print '<h5 class="montse">Add a new resource. Contribute to this principle.</h5>';
+   print '<h5 class="montse"><?php print t("Add a new resource. Contribute to this principle.") ?></h5>';
    } else {
-   print '<h5 class="montse">Add a new resource. Contribute to The African Declaration On Internet Rights And Freedoms.</h5>';
+   print '<h5 class="montse"><?php print t("Add a new resource. Contribute to The African Declaration On Internet Rights And Freedoms.") ?></h5>';
    }
 ?>
 <div class="add-resource">
