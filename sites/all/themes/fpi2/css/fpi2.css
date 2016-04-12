@@ -6899,7 +6899,7 @@ th.hide-for-touch {
   .custom-button:hover,
   .custom-button:focus {
     color: #FFFFFF; }
-  .custom-button:hover {
+  .custom-button:hover, .custom-button:focus {
     background: #fff;
     color: #000000; }
   .custom-button.slim {
@@ -7109,6 +7109,8 @@ body.mobile-menu-active {
   padding: 14px;
   padding: 0.875rem;
   border: 2px solid #FF8B64; }
+  .see-principle .medium-9.columns {
+    text-align: justify; }
 
 #grid {
   padding-top: 3em;
@@ -7171,16 +7173,10 @@ body.mobile-menu-active {
         padding-left: 1.75rem;
         padding-right: 0.875rem; }
         #grid .fpi-row .details-box .detail-box .ctas-grid {
-          height: 200px;
+          padding-top: 4%;
           width: 40%;
           float: left; }
           #grid .fpi-row .details-box .detail-box .ctas-grid a {
-            position: relative;
-            top: 50%;
-            -webkit-transform: translateY(-50%);
-                -ms-transform: translateY(-50%);
-                    transform: translateY(-50%);
-            margin: 0 auto;
             width: 240px; }
             #grid .fpi-row .details-box .detail-box .ctas-grid a i {
               color: #2cc376;
