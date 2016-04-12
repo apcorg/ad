@@ -6933,6 +6933,9 @@ main {
 h3.title {
   display: none; }
 
+.node-type-simple-page h3.title {
+  display: block; }
+
 .br {
   border-right: 1px solid rgba(0, 0, 0, 0.2); }
 
@@ -6951,6 +6954,9 @@ h3.title {
 
 i.bold-icon:before {
   font-weight: bold; }
+
+ul.links.inline {
+  display: none; }
 
 ul.breadcrumbs {
   display: none; }
