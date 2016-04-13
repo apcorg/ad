@@ -4,13 +4,27 @@ if (array_key_exists('nid',$param)) {
    $principle=node_load($param['nid']);
    $number = $principle->field_number['und'][0]['value'];
    $title = $principle->title;
-   print '<div class="chosen-resource">';
-   print_r( '<h5 class="montse">'.$number.'.&nbsp;'.$title.'</h5>'); 
+   print '<div class="see-principle clearfix">';
+   print '<div class="clearfix">';
+   print_r( '<div class="pull-left"><h4 class="montse">'.$number.'.&nbsp;&nbsp;'.'</h4></div>'); 
+   print_r( '<div class="pull-left"><h4 class="montse">'.$title.'</h4></div>'); 
+   print '</div>';
+   print '<div class="medium-3 columns">';
+   print '<img src="';
+   print_r(file_create_url($principle->field_featured_image['und'][0]['uri']));
+   print '">';
+   print '</div>';
+   print '<div class="medium-9 columns">';
    print_r( $principle->body['und'][0]['value']); 
    print '</div>';
-   print '<h5 class="montse"><?php print t("Add a new resource. Contribute to this principle.") ?></h5>';
+   print '</div>';
+   print '<h5 class="montse">';
+   print t("Add a new resource. Contribute to this principle.");
+   print '</h5>';
    } else {
-   print '<h5 class="montse"><?php print t("Add a new resource. Contribute to The African Declaration On Internet Rights And Freedoms.") ?></h5>';
+   print '<h5 class="montse">';
+   print t("Add a new resource. Contribute to The African Declaration On Internet Rights And Freedoms.");
+   print '</h5>';
    }
 ?>
 <div class="add-resource">
