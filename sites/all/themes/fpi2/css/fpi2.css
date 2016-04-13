@@ -6960,7 +6960,8 @@ ul.links.inline {
 
 ul.language-switcher-locale-url {
   list-style: none;
-  margin: 0; }
+  margin-left: 0;
+  margin-bottom: 1.75rem; }
   ul.language-switcher-locale-url li {
     display: inline-block;
     font-family: 'Montserrat';
