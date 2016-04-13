@@ -1,3 +1,4 @@
+<h3><?php print t('Application of the principles') ?></h3>
 <div class="see-principle mb-28 clearfix">
 	<?php 
 		$number = $node->field_number['und'][0]['value'];
