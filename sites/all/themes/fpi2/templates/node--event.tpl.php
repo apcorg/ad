@@ -1,5 +1,5 @@
 <div class="row">
-	<h4 class="montse text-center"><?php print $title; ?></h4>
+	<h3 class="montse text-center"><?php print $title; ?></h3>
 	<p class="text-center"><?php print t('Submitted by') ?> <?php print($node->name); ?></p>
 	<div class="text-center">
 		<?php print render($content['field_featured_image']); ?>

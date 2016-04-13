@@ -1,4 +1,4 @@
-<h4 class="montse text-center"><?php  print $node->title ?></h4>
+<h3 class="montse text-center"><?php  print $node->title ?></h3>
 <?php  print $node->field_description['und'][0]['value'].'<br>'; ?>
 <p>associated_with_principle</p>
 <?php 
