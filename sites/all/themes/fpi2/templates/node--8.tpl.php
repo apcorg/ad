@@ -299,7 +299,7 @@ $resultPrinciples = $result0->fetchAllAssoc('nid');
             <span><?php print $node->body_value; ?></span>
             <div class="ctas text-right">
               <a class="custom-button mr-7 slim" href=/see-principle/<?php print $node->nid; ?>>Learn more</a>
-              <a target="_blank" class="custom-button tweet sec-color slim" href="http://twitter.com/home?status=%22<?php echo substr($node->body_value, 0, 97); ?>...%22%20<?php print t('Learn more at feministinternet.net') ?>"><i class="ion-social-twitter"></i></a>
+              <a target="_blank" class="custom-button tweet sec-color slim" href="http://twitter.com/home?status=%22<?php echo substr($node->body_value, 0, 97); ?>...%22%20<?php print t('Learn more at africaninternetrights.net') ?>"><i class="ion-social-twitter"></i></a>
             </div>
           </div>
         </div>
