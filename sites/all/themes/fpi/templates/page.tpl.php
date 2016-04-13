@@ -6,7 +6,7 @@
   <nav class="">
     <div class="row full-width">
       <div class="small-2 text-center show-for-small-only columns"><i id="mobile-trigger" class="ion-android-apps x2"></i></div>
-      <div class="medium-offset-4 small-8 medium-4 columns text-center"><h3 id="site-title">Feminist Internet</h3></div>
+      <div class="medium-offset-4 small-8 medium-4 columns text-center"><h3 id="site-title">African Declaration</h3></div>
       <div class="medium-4 show-for-medium-up columns">
         <ul>
           <li>Login</li>
