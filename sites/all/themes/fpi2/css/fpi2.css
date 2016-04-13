@@ -7192,9 +7192,12 @@ body.mobile-menu-active {
           padding-top: 4%;
           width: 40%;
           float: left; }
-          #grid .fpi-row .details-box .detail-box .ctas-grid a {
-            width: 240px; }
-            #grid .fpi-row .details-box .detail-box .ctas-grid a i {
+          #grid .fpi-row .details-box .detail-box .ctas-grid a.cta-button {
+            width: 240px;
+            display: inline-block;
+            background-color: #fff;
+            border: 2px solid #2cc376; }
+            #grid .fpi-row .details-box .detail-box .ctas-grid a.cta-button i {
               color: #2cc376;
               vertical-align: middle; }
   #grid .details-box {
