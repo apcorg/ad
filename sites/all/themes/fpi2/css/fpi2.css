@@ -6958,6 +6958,15 @@ i.bold-icon:before {
 ul.links.inline {
   display: none; }
 
+ul.language-switcher-locale-url {
+  list-style: none;
+  margin: 0; }
+  ul.language-switcher-locale-url li {
+    display: inline-block;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-size: 0.8rem; }
+
 ul.breadcrumbs {
   display: none; }
 

@@ -4,7 +4,7 @@ if (array_key_exists('nid',$param)) {
    $principle=node_load($param['nid']);
    $number = $principle->field_number['und'][0]['value'];
    $title = $principle->title;
-   print '<div class="see-principle clearfix">';
+   print '<div class="see-principle mb-28 clearfix">';
    print '<div class="clearfix">';
    print_r( '<div class="pull-left"><h4 class="montse">'.$number.'.&nbsp;&nbsp;'.'</h4></div>'); 
    print_r( '<div class="pull-left"><h4 class="montse">'.$title.'</h4></div>'); 
