@@ -11,7 +11,7 @@
 		print '</div>';
 	?>
 	<div class="row">
-		<div class="medium-3 columns">
+		<div class="medium-3 pl-28 columns">
 			<img src="<?php print $f_image; ?>" alt="">
 		</div>
 		<div class="medium-9 columns">
