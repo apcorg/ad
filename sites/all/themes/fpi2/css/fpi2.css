@@ -7437,13 +7437,6 @@ form#user-register-form {
     border: 2px solid #2cc376;
     padding: 0.4375rem 0.875rem; }
 
-.application {
-  padding: 1.75rem;
-  border: 2px solid #FF8B64;
-  background: #ffdfd4; }
-  .application .app-text {
-    background: #fff; }
-
 footer {
   background-color: #2cc376;
   color: #fff; }
