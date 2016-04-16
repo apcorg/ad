@@ -19,8 +19,9 @@
 		</div>
 	</div>
 </div>
-<div class="application">
-	<div class="app-text">
+<div class="application mb-70">
+	<div class="app-text p-7">
+		<h5 class="montse"><?php print t('Application') ?>:</h5>
 		<?php print_r($application); ?>
 	</div>
 </div>
