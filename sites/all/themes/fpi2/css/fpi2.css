@@ -7177,7 +7177,6 @@ body.mobile-menu-active {
     #grid .fpi-row .details-box {
       position: absolute;
       height: 330px;
-      width: 100%;
       margin-top: 21px;
       opacity: 0; }
       #grid .fpi-row .details-box.open {
@@ -7193,7 +7192,7 @@ body.mobile-menu-active {
           width: 40%;
           float: left; }
           #grid .fpi-row .details-box .detail-box .ctas-grid a.cta-button {
-            width: 240px;
+            width: 230px;
             display: inline-block;
             background-color: #fff;
             border: 2px solid #2cc376; }
@@ -7202,7 +7201,6 @@ body.mobile-menu-active {
               vertical-align: middle; }
   #grid .details-box {
     border: 2px solid #FF8B64;
-    margin-bottom: 1.5em;
     height: 300px;
     background: #ffdfd4; }
     #grid .details-box .close {
@@ -7217,16 +7215,9 @@ body.mobile-menu-active {
       float: left;
       width: 60%;
       padding: 0.875rem;
-      position: relative;
       text-align: justify;
       -webkit-transform-style: preserve-3d;
               transform-style: preserve-3d; }
-      #grid .details-box .full-text p {
-        position: relative;
-        top: 50%;
-        -webkit-transform: translateY(-50%);
-            -ms-transform: translateY(-50%);
-                transform: translateY(-50%); }
       #grid .details-box .full-text i {
         position: absolute;
         right: 0;
@@ -7445,6 +7436,12 @@ form#user-register-form {
     border-radius: 0;
     border: 2px solid #2cc376;
     padding: 0.4375rem 0.875rem; }
+
+.application {
+  padding: 1.3125rem;
+  background: #ffdfd4; }
+  .application .app-text {
+    background: #fff; }
 
 footer {
   background-color: #2cc376;

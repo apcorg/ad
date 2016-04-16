@@ -19,8 +19,8 @@
 		</div>
 	</div>
 </div>
-<div class="row">
-	<div class="small-12 columns">
+<div class="application">
+	<div class="app-text">
 		<?php print_r($application); ?>
 	</div>
 </div>
