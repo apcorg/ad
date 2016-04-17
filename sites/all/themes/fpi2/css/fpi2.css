@@ -7133,10 +7133,10 @@ body.mobile-menu-active {
     width: 220px; }
   .see-principle .medium-9.columns {
     text-align: justify; }
-    .see-principle .medium-9.columns .body.field {
+    .see-principle .medium-9.columns .body.field, .see-principle .medium-9.columns > p {
       padding: 0.4375rem;
       background: #fff; }
-      .see-principle .medium-9.columns .body.field p {
+      .see-principle .medium-9.columns .body.field p, .see-principle .medium-9.columns > p p {
         margin: 0; }
 
 #grid {
