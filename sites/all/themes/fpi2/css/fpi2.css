@@ -7372,8 +7372,10 @@ body.mobile-menu-active {
         border-radius: 5px 5px 0 0;
         overflow: hidden; }
         .view-id-multimedia.view-id-multimedia .small-block-grid-2.medium-block-grid-4 li div.image img, .multimedia .small-block-grid-2.medium-block-grid-4 li div.image img {
-          max-height: 240px;
-          max-width: none; }
+          max-height: 240px; }
+          @media only screen and (min-width: 41.688em) {
+            .view-id-multimedia.view-id-multimedia .small-block-grid-2.medium-block-grid-4 li div.image img, .multimedia .small-block-grid-2.medium-block-grid-4 li div.image img {
+              max-width: none; } }
         .view-id-multimedia.view-id-multimedia .small-block-grid-2.medium-block-grid-4 li div.image a img, .multimedia .small-block-grid-2.medium-block-grid-4 li div.image a img {
           max-height: 240px;
           max-width: none; }
