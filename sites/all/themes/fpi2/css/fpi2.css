@@ -6930,6 +6930,9 @@ main {
     main {
       padding-top: 14%; } }
 
+.bg-muted {
+  background: #fff; }
+
 h3.title {
   display: none; }
 
