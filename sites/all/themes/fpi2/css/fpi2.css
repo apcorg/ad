@@ -7131,6 +7131,8 @@ body.mobile-menu-active {
     .see-principle .medium-9.columns .body.field {
       padding: 0.4375rem;
       background: #fff; }
+      .see-principle .medium-9.columns .body.field p {
+        margin: 0; }
 
 #grid {
   padding-top: 3em;
