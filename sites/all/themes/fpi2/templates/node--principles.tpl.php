@@ -10,11 +10,11 @@
 		print_r( '<div class="pull-left"><h4 class="montse">'.$title_1.'</h4></div>'); 
 		print '</div>';
 	?>
-	<div class="row">
-		<div class="medium-3 pl-28 columns">
+	<div class="">
+		<div class="medium-3 columns">
 			<img src="<?php print $f_image; ?>" alt="">
 		</div>
-		<div class="medium-9 pr-28 columns">
+		<div class="medium-9 columns">
 			<?php print render($content['body']); ?>
 		</div>
 	</div>

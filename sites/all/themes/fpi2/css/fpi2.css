@@ -7126,6 +7126,8 @@ body.mobile-menu-active {
   padding: 0.875rem;
   border: 4px solid #FF8B64;
   background: #ffdfd4; }
+  .see-principle .medium-3.columns img {
+    width: 220px; }
   .see-principle .medium-9.columns {
     text-align: justify; }
     .see-principle .medium-9.columns .body.field {
