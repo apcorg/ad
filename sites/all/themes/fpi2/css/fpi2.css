@@ -6933,6 +6933,9 @@ main {
 .bg-muted {
   background: #fff; }
 
+.text-danger {
+  color: #FF8B64; }
+
 h3.title {
   display: none; }
 
