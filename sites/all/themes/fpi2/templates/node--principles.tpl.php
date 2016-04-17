@@ -5,7 +5,7 @@
 		$f_image = file_create_url($node->field_featured_image['und'][0]['uri']);
 		$title_1 = $node->title;
 		$application = $node->field_application['und'][0]['value'];
-		print '<div class="clearfix">';
+		print '<div class="clearfix pl-7 pt-7">';
 		print_r( '<div class="pull-left"><h4 class="montse">'.$number.'.&nbsp;&nbsp;'.'</h4></div>'); 
 		print_r( '<div class="pull-left"><h4 class="montse">'.$title_1.'</h4></div>'); 
 		print '</div>';
@@ -14,7 +14,7 @@
 		<div class="medium-3 pl-28 columns">
 			<img src="<?php print $f_image; ?>" alt="">
 		</div>
-		<div class="medium-9 columns">
+		<div class="medium-9 pr-28 columns">
 			<?php print render($content['body']); ?>
 		</div>
 	</div>
