@@ -7243,6 +7243,9 @@ body.mobile-menu-active {
         background-color: #2cc376;
         padding: 0.1875rem 0.4375rem; }
 
+.page-node-add-resources ul.language-switcher-locale-url {
+  margin: 0; }
+
 .add-resource {
   padding: 28px;
   border: 2px solid #2cc376;
@@ -7455,6 +7458,9 @@ form#user-register-form {
     border-radius: 0;
     border: 2px solid #2cc376;
     padding: 0.4375rem 0.875rem; }
+
+.application .app-text {
+  text-align: justify; }
 
 footer {
   background-color: #2cc376;
