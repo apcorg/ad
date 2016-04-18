@@ -6940,7 +6940,8 @@ h3.title {
   display: none; }
 
 .node-type-simple-page h3.title {
-  display: block; }
+  display: block;
+  font-family: 'Montserrat'; }
 
 .br {
   border-right: 1px solid rgba(0, 0, 0, 0.2); }
