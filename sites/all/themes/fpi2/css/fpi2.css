@@ -6970,12 +6970,19 @@ ul.language-switcher-locale-url {
   margin-bottom: 1.75rem; }
   @media only screen and (max-width: 41.688em) {
     ul.language-switcher-locale-url {
-      padding-top: 7%; } }
+      padding-top: 7%;
+      margin-left: 0; } }
   ul.language-switcher-locale-url li {
     display: inline-block;
     font-family: 'Montserrat';
     text-transform: uppercase;
     font-size: 0.8rem; }
+
+.page-node-add-resources ul.language-switcher-locale-url, .page-events ul.language-switcher-locale-url, .node-type-event ul.language-switcher-locale-url, .node-type-simple-page ul.language-switcher-locale-url {
+  margin: 0; }
+
+.body.field {
+  text-align: justify; }
 
 ul.breadcrumbs {
   display: none; }
@@ -7242,9 +7249,6 @@ body.mobile-menu-active {
         color: #fff;
         background-color: #2cc376;
         padding: 0.1875rem 0.4375rem; }
-
-.page-node-add-resources ul.language-switcher-locale-url {
-  margin: 0; }
 
 .add-resource {
   padding: 28px;
