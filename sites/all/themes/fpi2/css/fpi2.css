@@ -6970,8 +6970,7 @@ ul.language-switcher-locale-url {
   margin-bottom: 1.75rem; }
   @media only screen and (max-width: 41.688em) {
     ul.language-switcher-locale-url {
-      padding-top: 7%;
-      margin-left: 0; } }
+      padding-top: 7%; } }
   ul.language-switcher-locale-url li {
     display: inline-block;
     font-family: 'Montserrat';
