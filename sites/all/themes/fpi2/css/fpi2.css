@@ -6928,7 +6928,7 @@ main {
   min-height: 86vh; }
   @media only screen and (max-width: 41.688em) {
     main {
-      padding-top: 21%; } }
+      padding-top: 24%; } }
 
 .bg-muted {
   background: #fff; }
@@ -6966,8 +6966,11 @@ ul.links.inline {
 
 ul.language-switcher-locale-url {
   list-style: none;
-  margin-left: 0;
+  margin-left: -0.4375rem;
   margin-bottom: 1.75rem; }
+  @media only screen and (max-width: 41.688em) {
+    ul.language-switcher-locale-url {
+      padding-top: 7%; } }
   ul.language-switcher-locale-url li {
     display: inline-block;
     font-family: 'Montserrat';
