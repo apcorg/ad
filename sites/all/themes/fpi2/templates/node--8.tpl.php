@@ -30,7 +30,7 @@ $lang_name = $language->language ; ?>
     <li class="mt--7"><i class="hide-for-small-only pri-color ion-navicon-round x2" id="toggle"></i></li>
   </ul>
   <ul id="drop1" class="f-dropdown" data-dropdown-content aria-hidden="true" tabindex="-1">
-    <li><a href="#">This is a link</a></li>
+    <li><a target="_blank" href="http://twitter.com/home?status=<?php print t('I just read the African Declaration of Internet Rights and Freedom. Find it here: africaninternetrights.net') ?>"><i class="ion-social-twitter x2">Twitter</a></li>
     <li><a href="#">This is another</a></li>
     <li><a href="#">Yet another</a></li>
   </ul>
