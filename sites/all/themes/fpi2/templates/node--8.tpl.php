@@ -30,9 +30,9 @@ $lang_name = $language->language ; ?>
     <li class="mt--7"><i class="hide-for-small-only pri-color ion-navicon-round x2" id="toggle"></i></li>
   </ul>
   <ul id="drop1" class="f-dropdown" data-dropdown-content aria-hidden="true" tabindex="-1">
-    <li><a target="_blank" href="http://twitter.com/home?status=<?php print t('I just read the African Declaration of Internet Rights and Freedom. Find it here: www.africaninternetrights.net') ?>"><i class="twitter ion-social-twitter x1-5"></i>Twitter</a></li>
-    <li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//africaninternetrights.net/" target="_blank"><i class="facebook ion-social-facebook x1-5"></i>Facebook</a></li>
-    <li><a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A//africaninternetrights.net/&title=&summary=&source="><i class="linkedin ion-social-linkedin x1-5"></i>Linkedin</a></li>
+    <li><a target="_blank" href="http://twitter.com/home?status=<?php print t('I just read the African Declaration of Internet Rights and Freedom. Find it here: www.africaninternetrights.net') ?>"><i class="twitter ion-social-twitter x1-5"></i>&nbsp;Twitter</a></li>
+    <li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//africaninternetrights.net/" target="_blank"><i class="facebook ion-social-facebook x1-5"></i>&nbsp;Facebook</a></li>
+    <li><a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A//africaninternetrights.net/&title=&summary=&source="><i class="linkedin ion-social-linkedin x1-5"></i>&nbsp;Linkedin</a></li>
   </ul>
 </section>  
 <!-- menu bar -->
