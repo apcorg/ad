@@ -7181,6 +7181,15 @@ main {
 .text-danger {
   color: #FF8B64; }
 
+.twitter {
+  color: #00aced; }
+
+.facebook {
+  color: #3b5998; }
+
+.linkedin {
+  color: #4875B4; }
+
 h3.title {
   display: none; }
 
@@ -7298,32 +7307,32 @@ body.mobile-menu-active {
   position: fixed;
   overflow: hidden; }
 
-#menu ul {
+#menu ul.cta-menu {
   list-style: none;
   margin: 0;
   padding: 0;
   text-align: center; }
-  #menu ul li {
+  #menu ul.cta-menu li {
     display: inline-block; }
-    #menu ul li .wrapper {
+    #menu ul.cta-menu li .wrapper {
       display: inline-block;
       position: relative;
       top: 24%;
       -webkit-transform: translateY(-50%);
           -ms-transform: translateY(-50%);
               transform: translateY(-50%); }
-    #menu ul li.cta {
+    #menu ul.cta-menu li.cta {
       height: 42px;
       border: 2px solid #2cc376;
       border-radius: 5px;
       position: relative;
       margin: 0 7px; }
-      #menu ul li.cta i {
+      #menu ul.cta-menu li.cta i {
         padding-left: 3px; }
       @media only screen and (max-width: 41.688em) {
-        #menu ul li.cta.download {
+        #menu ul.cta-menu li.cta.download {
           display: none; } }
-    #menu ul li #toggle {
+    #menu ul.cta-menu li #toggle {
       cursor: pointer; }
 
 #menu select {
