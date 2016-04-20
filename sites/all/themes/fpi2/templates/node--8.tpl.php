@@ -18,12 +18,12 @@ $lang_name = $language->language ; ?>
       </div>
     </li>
     <li class="cta ph-7">
-      <i class="x1-5 sec-color ion-android-share-alt"></i>
-      <a target="_blank" href="http://twitter.com/home?status=<?php print t('I just read the African Declaration of Internet Rights and Freedom. Find it here: africaninternetrights.net') ?>">
-	      <div class="wrapper">
-	        <span>Share</span>
-	      </div>
-      </a>
+      <div class="wrapper">
+        <?php 
+        	$addblock = module_invoke('addtoany', 'block_view', 'addtoany_button');
+					print render($addblock['content']); 
+				?>
+      </div>
     </li>
     <li class="mt--7"><i class="hide-for-small-only pri-color ion-navicon-round x2" id="toggle"></i></li>
   </ul>
