@@ -7722,7 +7722,8 @@ form#user-register-form {
   text-align: justify; }
 
 .f-dropdown {
-  outline: none; }
+  outline: none;
+  width: auto; }
 
 footer {
   background-color: #2cc376;
