@@ -22,10 +22,6 @@ $lang_name = $language->language ; ?>
       <a target="_blank" href="http://twitter.com/home?status=<?php print t('I just read the African Declaration of Internet Rights and Freedom. Find it here: africaninternetrights.net') ?>">
 	      <div class="wrapper">
 	        <span>Share</span>
-	        <?php 
-	        	$addblock = module_invoke('addtoany', 'block_view', 'addtoany_button');
-						print render($addblock['content']); 
-					?>
 	      </div>
       </a>
     </li>
