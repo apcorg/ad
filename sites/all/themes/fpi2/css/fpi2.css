@@ -7408,9 +7408,7 @@ body.mobile-menu-active {
 
 #grid {
   padding-top: 3em;
-  height: 1412px;
-  position: relative;
-  z-index: -1; }
+  height: 1412px; }
   #grid .fpi-row {
     position: relative;
     z-index: 2;
@@ -7724,6 +7722,8 @@ form#user-register-form {
 .f-dropdown {
   outline: none;
   width: auto; }
+  .f-dropdown i {
+    vertical-align: middle; }
 
 footer {
   background-color: #2cc376;
