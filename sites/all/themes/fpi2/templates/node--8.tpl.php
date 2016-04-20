@@ -18,14 +18,21 @@ $lang_name = $language->language ; ?>
       </div>
     </li>
     <li class="cta ph-7">
-      <i class="x1-5 sec-color ion-android-share-alt"></i>
-      <a target="_blank" href="http://twitter.com/home?status=<?php print t('I just read the African Declaration of Internet Rights and Freedom. Find it here: africaninternetrights.net') ?>">
-	      <div class="wrapper">
-	        <span>Share</span>
-	      </div>
+      <a data-dropdown="drop1" aria-controls="drop1" aria-expanded="false">
+        <i class="x1-5 sec-color ion-android-share-alt"></i>
+      </a>
+      <a data-dropdown="drop1" aria-controls="drop1" aria-expanded="false">
+        <div class="wrapper">
+          <span>&nbsp;Share</span>
+        </div>
       </a>
     </li>
     <li class="mt--7"><i class="hide-for-small-only pri-color ion-navicon-round x2" id="toggle"></i></li>
+  </ul>
+  <ul id="drop1" class="f-dropdown" data-dropdown-content aria-hidden="true" tabindex="-1">
+    <li><a href="#">This is a link</a></li>
+    <li><a href="#">This is another</a></li>
+    <li><a href="#">Yet another</a></li>
   </ul>
 </section>  
 <!-- menu bar -->
