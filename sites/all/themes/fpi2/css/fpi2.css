@@ -7160,6 +7160,9 @@ th.hide-for-touch {
 .sec-color {
   color: #2cc376; }
 
+.v-align {
+  vertical-align: middle; }
+
 .full-fpi {
   border-bottom: 1px solid #4C4C4C; }
   .full-fpi .row {
