@@ -7173,7 +7173,8 @@ th.hide-for-touch {
 
 main {
   padding-top: 10%;
-  min-height: 86vh; }
+  min-height: 86vh;
+  padding-bottom: 7%; }
   @media only screen and (max-width: 41.688em) {
     main {
       padding-top: 24%; } }
