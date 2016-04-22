@@ -25,3 +25,9 @@
 		<?php print_r($application); ?>
 	</div>
 </div>
+<h6><i class="ion-arrow-left-a sec-color bold-icon x2"></i><?php print t('Go Back') ?></h6>
+<br>
+<h6><?php print t('You can also') ?>:</h6>
+<a href=/see-principle/<?php print $node->nid; ?>><i class="ion-ios-list-outline bold-icon x2"></i><span>&nbsp;<?php print t('See relevant resources related to this principle.') ?></span></a>
+<a href=/see-principle/<?php print $node->nid; ?>><i class="ion-chatboxes x2"></i><?php print t('Join the Conversation.') ?></a>
+
