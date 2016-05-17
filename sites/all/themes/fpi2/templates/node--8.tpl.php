@@ -14,7 +14,7 @@ $lang_name = $language->language ; ?>
     <li class="cta download ph-7">
       <i class="x1-5 sec-color ion-code-download"></i>
       <div class="wrapper">
-        <span>Download</span>
+        <a href="http://africaninternetrights.org/wp-content/uploads/2015/11/african_declaration_on_internet_rights_freedoms-Nov-2015.pdf">Download</a>
       </div>
     </li>
     <li class="cta ph-7">
